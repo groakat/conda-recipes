@@ -1,0 +1,26 @@
+package:
+  name: sound4python
+  version: 0.0.1
+
+source:
+  fn: master.zip
+  url: https://github.com/groakat/sound4python/archive/master.zip
+#  sha1: e85fbf5ed148d112aa755b7c281ee48c83815ba4
+  
+build:                   
+  number: 0              
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - sox
+	
+  run:
+    - python
+    - sox
+
+
+about:
+  home: https://bitbucket.org/groakat/ffvideo/
+  license: Standard PIL license

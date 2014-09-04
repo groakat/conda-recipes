@@ -1,0 +1,23 @@
+package:
+  name: audiotagger-dependencies
+  version: 0.0.1
+  
+  
+  
+build:                   
+  number: 0
+
+requirements:
+	
+  run:
+    - python
+    - qimage2ndarray
+    - numpy
+    - sound4python
+    - pyside
+    - scipy
+
+
+about:
+  home: 
+  license: Standard PIL license

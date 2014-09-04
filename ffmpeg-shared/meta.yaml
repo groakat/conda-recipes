@@ -1,0 +1,22 @@
+package:
+  name: ffmpeg-shared
+  version: 2.3.3
+
+source:
+  fn: ffmpeg-20140827-git-9e8ab36-win64-shared.7z
+  url: http://ffmpeg.zeranoe.com/builds/win64/shared/ffmpeg-20140827-git-9e8ab36-win64-shared.7z [win]
+  sha1: 39c2bcb9465ce15cfd3badc1b7bb0b83718c4cac
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+    - 7za			[win]
+  run:
+    - ffmpeg-shared
+
+about:
+  home: https://www.ffmpeg.org/
+  license: "Various (see Copyright file from the aspell6-en source)"
+  summary: "A complete, cross-platform solution to record, convert and stream audio and video."

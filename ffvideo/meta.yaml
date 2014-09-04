@@ -1,0 +1,38 @@
+package:
+  name: ffvideo
+  version: 0.0.13
+
+source:
+  fn: b45143f755ac.zip
+  url: https://bitbucket.org/groakat/ffvideo/get/b45143f755ac.zip
+#  md5: cf42c695fab68116af2c8ef816fca0d9
+  
+build:                   [win]
+  number: 5              [win]
+
+requirements:
+  build:
+    - python
+    - cython             [win]
+    - mingw				 [win]
+    - ffmpeg-dev         [win]	
+    - cython
+    - mingw
+    - python
+    - pywin32
+    - setuptools
+    - libpython
+	
+  run:
+    - python
+    - ffmpeg-shared         [win]
+#    - cython
+#    - mingw
+#    - pywin32
+#    - setuptools
+#    - libpython
+
+
+about:
+  home: https://bitbucket.org/groakat/ffvideo/
+  license: Standard PIL license

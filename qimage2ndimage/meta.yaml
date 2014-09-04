@@ -1,0 +1,25 @@
+package:
+  name: qimage2ndarray
+  version: 0.0.1
+
+source:
+  fn: qimage2ndarray-6327d2d4f641a95aa5c28f77bfdbe9f02a8ee0e2.zip
+  url: https://github.com/groakat/qimage2ndarray/archive/6327d2d4f6.zip
+  sha1: e85fbf5ed148d112aa755b7c281ee48c83815ba4
+  
+build:                   
+  number: 0              
+
+requirements:
+  build:
+    - python
+    - pyside
+	
+  run:
+    - python
+    - pyside
+
+
+about:
+  home: https://bitbucket.org/groakat/ffvideo/
+  license: Standard PIL license

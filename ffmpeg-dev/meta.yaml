@@ -1,0 +1,48 @@
+package:
+  name: ffmpeg-dev
+  version: 2.3.3
+
+source:
+  fn: ffmpeg-20140827-git-8c1b942-win64-dev.7z
+  url: http://ffmpeg.zeranoe.com/builds/win64/dev/ffmpeg-20140827-git-8c1b942-win64-dev.7z [win]
+  sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 5
+    binary_has_prefix_files:                       [win]
+#        - Library\lib\avcodec-56.def                        [win]
+#        - Library\lib\avdevice-56.def                        [win]
+#        - Library\lib\avfilter-5.def                        [win]
+#        - Library\lib\avformat-56.def                        [win]
+#        - Library\lib\avutil-54.def                        [win]
+        - Library\lib\libavcodec.dll.a                        [win]
+        - Library\lib\libavfilter.dll.a                        [win]
+        - Library\lib\libavutil.dll.a                        [win]
+        - Library\lib\libswresample.dll.a                        [win]
+#        - Library\lib\postproc-53.def                        [win]
+#        - Library\lib\swresample-1.def                        [win]
+#        - Library\lib\swscale-3.def                        [win]
+        - Library\lib\avcodec.lib                        [win]
+        - Library\lib\avdevice.lib                        [win]
+        - Library\lib\avfilter.lib                        [win]
+        - Library\lib\avformat.lib                        [win]
+        - Library\lib\avutil.lib                        [win]
+        - Library\lib\libavdevice.dll.a                        [win]
+        - Library\lib\libavformat.dll.a                        [win]
+        - Library\lib\libpostproc.dll.a                        [win]
+        - Library\lib\libswscale.dll.a                       [win]
+        - Library\lib\postproc.lib                     [win]
+        - Library\lib\swresample.lib                       [win]
+        - Library\lib\swscale.lib                       [win]
+	  
+requirements:
+  build:
+    - 7za
+    - ffmpeg-dev
+  run:
+    - ffmpeg-dev
+
+about:
+  home: https://www.ffmpeg.org/
+  license: "Various (see Copyright file from the aspell6-en source)"
+  summary: "A complete, cross-platform solution to record, convert and stream audio and video."

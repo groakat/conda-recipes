@@ -1,0 +1,16 @@
+package:
+  name: msgpack-python
+  version: !!str 0.4.1
+
+requirements:
+  build:
+    - python
+    - pip
+
+  run:
+    - python
+
+about:
+  home: http://msgpack.org/
+  license: ache Software License
+  summary: MessagePack (de)serializer.
