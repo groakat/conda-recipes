@@ -5,7 +5,7 @@ package:
   
   
 build:                   
-  number: 0
+  number: 1
 
 requirements:
 	
@@ -16,6 +16,7 @@ requirements:
     - sound4python
     - pyside
     - scipy
+    - matplotlib
 
 
 about:

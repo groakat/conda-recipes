@@ -3,9 +3,11 @@ package:
   version: 2.3.3
 
 source:
-  fn: ffmpeg-20140827-git-8c1b942-win64-dev.7z
+  fn: ffmpeg-20140827-git-8c1b942-win64-dev.7z [win]
   url: http://ffmpeg.zeranoe.com/builds/win64/dev/ffmpeg-20140827-git-8c1b942-win64-dev.7z [win]
-  sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+  sha1: 37e04d73df8604df2581eeaf374aa3e521231694 [win]
+  fn: dummy.txt [osx]
+  url: https://gist.githubusercontent.com/groakat/5cad6b243e2ce236d9d4/raw/3c546eb2764c6681df095e68d1e5000725139208/dummy.txt [osx]
 	
 build:
     number: 5
@@ -37,8 +39,7 @@ build:
 	  
 requirements:
   build:
-    - 7za
-    - ffmpeg-dev
+    - 7za		[win]
   run:
     - ffmpeg-dev
 

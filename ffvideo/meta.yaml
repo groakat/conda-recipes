@@ -7,25 +7,24 @@ source:
   url: https://bitbucket.org/groakat/ffvideo/get/b45143f755ac.zip
 #  md5: cf42c695fab68116af2c8ef816fca0d9
   
-build:                   [win]
-  number: 5              [win]
+build:                   
+  number: 5              
 
 requirements:
   build:
     - python
     - cython             [win]
     - mingw				 [win]
-    - ffmpeg-dev         [win]	
+    - ffmpeg-dev         	
     - cython
-    - mingw
     - python
-    - pywin32
+    - pywin32           [win]
     - setuptools
-    - libpython
+    - libpython         [win]
 	
   run:
     - python
-    - ffmpeg-shared         [win]
+    - ffmpeg-shared         
 #    - cython
 #    - mingw
 #    - pywin32

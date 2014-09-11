@@ -3,12 +3,14 @@ package:
   version: 14.4.1
 
 source:
-  fn: sox-14.4.1-win32.zip
+  fn: sox-14.4.1-win32.zip [win]
   url: http://downloads.sourceforge.net/project/sox/sox/14.4.1/sox-14.4.1-win32.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fsox%2Ffiles%2Fsox%2F14.4.1%2F&ts=1409755939&use_mirror=kent [win]
+  fn: sox-14.4.1-macosx.zip [osx]
+  url: http://downloads.sourceforge.net/project/sox/sox/14.4.1/sox-14.4.1-macosx.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fsox%2Ffiles%2Fsox%2F14.4.1%2F&ts=1410457081&use_mirror=kent [osx]
   #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
 	
 build:
-    number: 0
+    number: 1
 	  
 requirements:
   build:
@@ -17,6 +19,6 @@ requirements:
     - sox
 
 about:
-  home: https://www.ffmpeg.org/
+  home: http://sox.sourceforge.net/
   license: "Various (see Copyright file from the aspell6-en source)"
   summary: "A complete, cross-platform solution to record, convert and stream audio and video."

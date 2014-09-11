@@ -3,9 +3,9 @@ package:
   version: 2.3.3
 
 source:
-  fn: ffmpeg-20140827-git-9e8ab36-win64-shared.7z
+  fn: ffmpeg-20140827-git-9e8ab36-win64-shared.7z[win]
   url: http://ffmpeg.zeranoe.com/builds/win64/shared/ffmpeg-20140827-git-9e8ab36-win64-shared.7z [win]
-  sha1: 39c2bcb9465ce15cfd3badc1b7bb0b83718c4cac
+  sha1: 39c2bcb9465ce15cfd3badc1b7bb0b83718c4cac[win]
 	
 build:
     number: 0

@@ -5,7 +5,7 @@ package:
   
   
 build:                   
-  number: 7
+  number: 8
 
 requirements:
 	
@@ -19,6 +19,7 @@ requirements:
     - scipy
     - pil
     - zerorpc
+    - matplotlib
 
 
 about:
