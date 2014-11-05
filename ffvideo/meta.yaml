@@ -1,10 +1,10 @@
 package:
   name: ffvideo
-  version: 0.0.13
+  version: 0.0.14
 
 source:
-  fn: b45143f755ac.zip
-  url: https://bitbucket.org/groakat/ffvideo/get/b45143f755ac.zip
+  fn: e796020bc0cd.zip
+  url: https://bitbucket.org/groakat/ffvideo/get/e796020bc0cd.zip
 #  md5: cf42c695fab68116af2c8ef816fca0d9
   
 build:                   
