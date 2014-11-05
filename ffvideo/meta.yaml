@@ -3,12 +3,12 @@ package:
   version: 0.0.14
 
 source:
-  fn: e796020bc0cd.zip
-  url: https://bitbucket.org/groakat/ffvideo/get/e796020bc0cd.zip
+  fn: default.zip
+  url: https://bitbucket.org/groakat/ffvideo/get/default.zip
 #  md5: cf42c695fab68116af2c8ef816fca0d9
   
 build:                   
-  number: 5              
+  number: 6              
 
 requirements:
   build:
