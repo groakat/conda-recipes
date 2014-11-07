@@ -1,0 +1,19 @@
+package:
+  name: gdcm
+  version: "2.4.5.release"
+
+source:
+  git_url: http://git.code.sf.net/p/gdcm/gdcm
+  git_tag: 9c67f238501c97e6813a847a618425899428e465
+
+requirements:
+  build:
+    - python
+    - cmake
+  run:
+    - python
+
+about:
+  home: http://sourceforge.net/projects/gdcm/
+  license: Apache 2.0
+  summary: Grassroots DiCoM is a C++ library for DICOM medical files
