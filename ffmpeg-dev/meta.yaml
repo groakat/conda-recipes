@@ -1,6 +1,6 @@
 package:
   name: ffmpeg-dev
-  version: 2.3.3
+  version: 2.4.3
 
 source:
   fn: ffmpeg-20140827-git-8c1b942-win64-dev.7z [win]
@@ -10,7 +10,7 @@ source:
   url: https://gist.githubusercontent.com/groakat/5cad6b243e2ce236d9d4/raw/3c546eb2764c6681df095e68d1e5000725139208/dummy.txt [osx]
 	
 build:
-    number: 5
+    number: 17
     binary_has_prefix_files:                       [win]
 #        - Library\lib\avcodec-56.def                        [win]
 #        - Library\lib\avdevice-56.def                        [win]
@@ -41,7 +41,7 @@ requirements:
   build:
     - 7za		[win]
   run:
-    - ffmpeg-dev
+    - ffmpeg-dev 
 
 about:
   home: https://www.ffmpeg.org/

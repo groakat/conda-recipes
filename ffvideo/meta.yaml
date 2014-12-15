@@ -8,7 +8,7 @@ source:
 #  md5: cf42c695fab68116af2c8ef816fca0d9
   
 build:                   
-  number: 6              
+  number: 31           
 
 requirements:
   build:
@@ -24,7 +24,8 @@ requirements:
 	
   run:
     - python
-    - ffmpeg-shared         
+    - ffmpeg-shared  
+    - ffmoeg-dev       
 #    - cython
 #    - mingw
 #    - pywin32
