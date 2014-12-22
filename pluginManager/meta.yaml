@@ -1,0 +1,24 @@
+package:
+  name: pluginmanager
+  version: 0.0.1
+
+source:
+  fn: master.zip
+  url: https://github.com/groakat/pluginManager/archive/master.zip
+  sha1: 7db8c78ea864620bbf7b938b1f50c631830dc229
+  
+build:                   
+  number: 0              
+
+requirements:
+  build:
+    - python
+    - setuptools
+	
+  run:
+    - python
+
+
+about:
+  home: https://github.com/groakat/pluginManager
+  license: ---

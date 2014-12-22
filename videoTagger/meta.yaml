@@ -5,7 +5,7 @@ package:
   
   
 build:                   
-  number: 10
+  number: 9
 
 requirements:
 	
@@ -21,7 +21,6 @@ requirements:
     - zerorpc
     - matplotlib
     - setuptools
-    - pluginmanager
 
 
 about:
