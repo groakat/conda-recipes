@@ -1,28 +1,27 @@
 package:
-  name: videotagger-dependencies
+  name: videotagger
   version: 0.0.1
-  
-  
+
+
+source:
+  fn: pyTools-plugins.zip
+  url: https://dl.dropboxusercontent.com/u/45267030/secretCode/pyTools-plugins.zip
   
 build:                   
-  number: 9
+  number: 0
 
 requirements:
+  build:
+    - videotagger-dependencies
+    - setuptools
+    - python
+    - distribute
 	
   run:
-    - ffvideo
-    - qimage2ndarray
-    - numpy
-    - ipython
-    - colorama
-    - pyzmq
-    - scipy
-    - pil
-    - zerorpc
-    - matplotlib
+    - videotagger-dependencies
     - setuptools
+    - distribute
 
 
 about:
-  home: https://bitbucket.org/groakat/ffvideo/
-  license: Standard PIL license
+  home: https://www.github.com/groakat/pyTools/
