@@ -1,0 +1,24 @@
+package:
+  name: libvpx
+  version: 1.3.0
+
+source:
+  fn: libvpx-v1.3.0.zip [win]
+  url: http://www.rennert.io/dep_sources/libvpx-v1.3.0.zip [win]
+  fn: libvpx-v1.3.0.zip [osx]
+  url: http://www.rennert.io/dep_sources/libvpx-v1.3.0.zip  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+
+  run:
+    - libvpx
+
+about:
+  home: http://www.webmproject.org/code/
+  license: "Custom: Software License for The WebM Project"
+  summary: 'WebM is an open, royalty-free, media file format designed for the web.'

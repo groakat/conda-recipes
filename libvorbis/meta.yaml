@@ -1,0 +1,25 @@
+package:
+  name: libvorbis
+  version: 1.3.5
+
+source:
+  fn: libvorbis-1.3.5.tar.gz [win]
+  url: http://www.rennert.io/dep_sources/libvorbis-1.3.5.tar.gz [win]
+  fn: libvorbis-1.3.5.tar.gz [osx]
+  url: http://www.rennert.io/dep_sources/libvorbis-1.3.5.tar.gz  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+    - libogg
+  run:
+    - libogg
+    - libvorbis
+
+about:
+  home: https://xiph.org/vorbis/
+  license: "BSD-STYLE SOURCE LICENSE"
+  summary: "Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format for mid to high quality (8kHz-48.0kHz, 16+ bit, polyphonic) audio and music at fixed and variable bitrates from 16 to 128 kbps/channel."

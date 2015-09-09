@@ -1,0 +1,23 @@
+package:
+  name: opus
+  version: 1.1.
+
+source:
+  fn: opus-1.1.tar.gz [win]
+  url: http://www.rennert.io/dep_sources/opus-1.1.tar.gz [win]
+  fn: opus-1.1.tar.gz [osx]
+  url: http://www.rennert.io/dep_sources/opus-1.1.tar.gz  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+  run:
+    - opus
+
+about:
+  home: https://www.opus-codec.org/
+  license: "Royalty-free patent licenses"
+  summary: "Opus is a totally open, royalty-free, highly versatile audio codec. Opus is unmatched for interactive speech and music transmission over the Internet, but is also intended for storage and streaming applications."

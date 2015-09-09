@@ -1,0 +1,24 @@
+package:
+  name: x264
+  version: 2245
+
+source:
+  fn: last_x264.tar.bz2 [win]
+  url: http://www.rennert.io/dep_sources/last_x264.tar.bz2 [win]
+  fn: last_x264.tar.bz2 [osx]
+  url: http://www.rennert.io/dep_sources/last_x264.tar.bz2  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+    - yasm
+  run:
+    - x264
+
+about:
+  home: http://www.videolan.org/developers/x264.html
+  license: "GNU GPL"
+  summary: "x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format, and is released under the terms of the GNU GPL."

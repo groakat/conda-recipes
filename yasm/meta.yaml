@@ -1,0 +1,24 @@
+package:
+  name: yasm
+  version: 1.3.0
+
+source:
+  fn: yasm-1.3.0.tar.gz [win]
+  url: http://www.rennert.io/dep_sources/yasm-1.3.0.tar.gz [win]
+  fn: yasm-1.3.0.tar.gz [osx]
+  url: http://www.rennert.io/dep_sources/yasm-1.3.0.tar.gz  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+    - python
+  run:
+    - yasm
+
+about:
+  home: http://yasm.tortall.net/
+  license: "GNU_GPL-2.0"
+  summary: "The Yasm Modular Assembler Project"

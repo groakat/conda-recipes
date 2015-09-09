@@ -1,0 +1,23 @@
+package:
+  name: lame
+  version: 3.99.5
+
+source:
+  fn: lame-3.99.5.tar.gz [win]
+  url: http://www.rennert.io/dep_sources/lame-3.99.5.tar.gz [win]
+  fn: lame-3.99.5.tar.gz [osx]
+  url: http://www.rennert.io/dep_sources/lame-3.99.5.tar.gz  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+  run:
+    - lame
+
+about:
+  home: http://lame.sourceforge.net/
+  license: "LGPL"
+  summary: "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL"
