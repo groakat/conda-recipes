@@ -1,0 +1,25 @@
+package:
+  name: automake
+  version: 1.14
+
+source:
+  fn: automake-1.14.tar.gz [win]
+  url: http://ftpmirror.gnu.org/automake/automake-1.14.tar.gz[win]
+  fn: automake-1.14.tar.gz[osx]
+  url: http://ftpmirror.gnu.org/automake/automake-1.14.tar.gz  [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+    - autoconf
+  run:
+    - autoconf
+    - automake
+
+about:
+  home: http://www.gnu.org/software/automake/automake.html
+  license: "GNU_GPL-2.0"
+  summary: "Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of Autoconf."

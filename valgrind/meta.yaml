@@ -1,0 +1,24 @@
+package:
+  name: valgrind
+  version: 3.10.1
+
+source:
+  fn: valgrind-3.10.1.tar.bz2 [win]
+  url: http://valgrind.org/downloads/valgrind-3.10.1.tar.bz2[win]
+  #fn: valgrind [osx]
+  svn_url: svn://svn.valgrind.org/valgrind/trunk [osx]
+  #sha1: 37e04d73df8604df2581eeaf374aa3e521231694
+	
+build:
+    number: 0
+	  
+requirements:
+  build:
+    - automake
+  run:
+    - valgrind
+
+about:
+  home: http://valgrind.org/
+  license: "GNU_GPL-2.0"
+  summary: "Valgrind is an instrumentation framework for building dynamic analysis tools. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile your programs in detail. "
