@@ -1,6 +1,6 @@
 package:
   name: ffvideo
-  version: 0.0.15
+  version: 0.0.16
 
 source:
   fn: default.zip
@@ -8,24 +8,26 @@ source:
 #  md5: cf42c695fab68116af2c8ef816fca0d9
   
 build:                   
-  number: 01          
+  number: 0          
 
 requirements:
   build:
     - python
     - cython             [win]
     - mingw				 [win]
-    - ffmpeg-dev         	
+    - ffmpeg-shared         	
     - cython
     - python
+    - numpy
     - pywin32           [win]
     - setuptools
     - libpython         [win]
 	
   run:
     - python
+    - numpy
     - ffmpeg-shared  
-    - ffmpeg-dev       
+    # - ffmpeg-dev       
 #    - cython
 #    - mingw
 #    - pywin32
