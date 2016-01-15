@@ -1,0 +1,30 @@
+package:
+  name: mystic
+  version:  0.2.a1
+
+source:
+  fn: mystic-0.2a1.zip
+  url: http://dev.danse.us/packages/mystic-0.2a1.zip
+  
+build:                   
+  number: 1          
+
+requirements:
+  build:
+    - python
+    - numpy
+    - sympy
+    - matplotlib
+    - scipy
+	
+  run:
+    - python
+    - numpy
+    - sympy
+    - matplotlib
+    - scipy
+
+
+about:
+  home: https://pypi.python.org/pypi/multiprocess
+  license: BSD

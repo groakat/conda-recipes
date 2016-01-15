@@ -1,0 +1,24 @@
+package:
+  name: multiprocess
+  version:  0.70.3
+
+source:
+  fn: multiprocess-0.70.3.zip
+  url: https://pypi.python.org/packages/source/m/multiprocess/multiprocess-0.70.3.zip
+  
+build:                   
+  number: 0          
+
+requirements:
+  build:
+    - python
+    - dill
+	
+  run:
+    - python
+    - dill
+
+
+about:
+  home: https://pypi.python.org/pypi/multiprocess
+  license: BSD

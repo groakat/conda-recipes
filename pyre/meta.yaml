@@ -1,0 +1,25 @@
+package:
+  name: pyre
+  version: 1.0
+
+source:
+  git_url: https://github.com/zeromq/pyre.git
+  
+build:                   
+  number: 1          
+
+requirements:
+  build:
+    - python
+    - pyzmq
+    - ipaddress
+	
+  run:
+    - python
+    - pyzmq
+    - ipaddress
+
+
+about:
+  home: https://github.com/zeromq/pyre
+  license:  LGPLv3

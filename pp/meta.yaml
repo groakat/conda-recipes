@@ -1,0 +1,22 @@
+package:
+  name: pp
+  version: 1.6.4
+
+source:
+  fn: pp-1.6.4.tar.gz
+  url: http://www.parallelpython.com/downloads/pp/pp-1.6.4.tar.gz
+  
+build:                   
+  number: 0          
+
+requirements:
+  build:
+    - python
+	
+  run:
+    - python
+
+
+about:
+  home: https://github.com/noxrepo/pox
+  license: Apache 2.0

@@ -1,0 +1,30 @@
+package:
+  name: pyina
+  version:  0.1.a1
+
+source:
+  fn: pyina-0.1a1.tgz
+  url: http://dev.danse.us/packages/pyina-0.1a1.tgz
+  
+build:                   
+  number: 0          
+
+requirements:
+  build:
+    - python
+    - mpi4py
+    - dill
+    - pyre
+    - mystic
+	
+  run:
+    - python
+    - mpi4py
+    - dill
+    - pyre
+    - mystic
+
+
+about:
+  home: https://pypi.python.org/pypi/pyina/0.1a1
+  license: 3-clause BSD

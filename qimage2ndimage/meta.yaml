@@ -5,10 +5,10 @@ package:
 source:
   fn: qimage2ndarray-master.zip
   url: https://github.com/hmeine/qimage2ndarray/archive/master.zip
-  sha1: 1c1e3f8ccb46c806247f4341b67c196fc73b6546
+  # sha1: 1c1e3f8ccb46c806247f4341b67c196fc73b6546
   
 build:                   
-  number: 0         
+  number: 2    
 
 requirements:
   build:

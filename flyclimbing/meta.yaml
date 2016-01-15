@@ -1,0 +1,55 @@
+package:
+  name: flyclimbing
+  version: 0.0.1
+
+
+source:
+  fn: fly-climbing-master.zip
+  sha256: d0b2ce0a6779740d2c7efa405781ae97971e15b0c59723416873c179008dc251
+  url: http://peter.rennert.io/exchange/flyclimbing/fly-climbing-master.zip
+  
+build:                   
+  number: 9
+
+requirements:
+  build:
+    - numpy
+    - ffvideo
+    - qimage2ndarray
+    - setuptools
+    - python
+    - distribute
+    - pyside
+    - scipy
+    - joblib
+    - matplotlib
+    - opencv
+    - pandas
+    - scikit-learn
+    - scikit-image >=0.11
+    - libpng
+    - pathos
+    - gcc
+	
+  run:
+    - numpy
+    - ffvideo
+    - qimage2ndarray
+    - setuptools
+    - python
+    - distribute
+    - pyside
+    - scipy
+    - joblib
+    - matplotlib
+    - opencv
+    - pandas
+    - scikit-learn
+    - scikit-image >=0.11
+    - libpng
+    - pathos
+    - gcc
+
+
+about:
+  home: https://www.github.com/groakat/flyclimbing/

@@ -1,0 +1,24 @@
+package:
+  name: ppft
+  version: 1.6.4.5
+
+source:
+  fn: ppft-1.6.4.5.zip
+  url: https://pypi.python.org/packages/source/p/ppft/ppft-1.6.4.5.zip
+  
+build:                   
+  number: 0          
+
+requirements:
+  build:
+    - python
+    - six
+	
+  run:
+    - python
+    - six
+
+
+about:
+  home: https://pypi.python.org/pypi/ppft
+  license: BSD-like
