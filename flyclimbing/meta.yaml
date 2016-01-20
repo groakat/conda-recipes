@@ -9,7 +9,7 @@ source:
   url: http://peter.rennert.io/exchange/flyclimbing/fly-climbing-master.zip
   
 build:                   
-  number: 9
+  number: 11
 
 requirements:
   build:
@@ -29,7 +29,9 @@ requirements:
     - scikit-image >=0.11
     - libpng
     - pathos
-    - gcc
+    - gcc #[unix]
+    - libpython #[win]
+    - mingw #[win]
 	
   run:
     - numpy
@@ -48,7 +50,9 @@ requirements:
     - scikit-image >=0.11
     - libpng
     - pathos
-    - gcc
+    - gcc #[unix]
+    - libpython #[win]
+    - mingw #[win]
 
 
 about:
