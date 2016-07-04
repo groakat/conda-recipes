@@ -1,14 +1,14 @@
 package:
   name: zerorpc
-  version: 0.4.4
+  version: 0.5.2
 
 source:
-  fn: zerorpc-0.4.4.tar.gz
-  url: https://pypi.python.org/packages/source/z/zerorpc/zerorpc-0.4.4.tar.gz
-  md5: cb54bfbc3c3068dab482e95c543c6e03
+  fn: zerorpc-python-master.zip
+  url: https://github.com/0rpc/zerorpc-python/archive/master.zip
+  sha256: 619e6ba846f5a98c26c93d8273da4c12b09a5c0f0467c9e379d92c820e71ecd2
 
 build:
-    number: 0
+    number: 1
   
 requirements:
   build:
@@ -16,14 +16,15 @@ requirements:
     - setuptools
     - gevent
     - greenlet
-    - pyzmq ==13.1.0
+    - pyzmq
     - msgpack-python
 
   run:
     - python
-    - pyzmq ==13.1.0
+    - pyzmq
     - gevent
     - msgpack-python
+    - setuptools
 
 test:
   # Python imports
