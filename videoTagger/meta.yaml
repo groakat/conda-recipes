@@ -1,11 +1,11 @@
 package:
   name: videotagger
-  version: 0.0.4
+  version: 0.0.7
 
 
 source:
   fn: pyTools-master.zip
-  sha256: ae5b9d1bd6b0a61fe6115c804ef1f5ef956e0bc199ee27442338c094f235c5dd
+  sha256: 22f9b1736264adc62fe940cd9cb84a59cc8bee8cbfb38623000667da8ad5bab4
   url: http://peter.rennert.io/exchange/pyTools/pyTools-master.zip
   
 build:                   

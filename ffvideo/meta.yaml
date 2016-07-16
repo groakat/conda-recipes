@@ -3,12 +3,13 @@ package:
   version: 0.0.17
 
 source:
-  fn: default.zip
-  url: https://bitbucket.org/groakat/ffvideo/get/default.zip
+  fn: master.zip
+  url: https://github.com/groakat/ffvideo/archive/master.zip
+  sha256: faaf710d27610232d8765f504ad99516d6da00a3471a85b11a841cd1626ce025
 #  md5: cf42c695fab68116af2c8ef816fca0d9
   
 build:                   
-  number: 0          
+  number: 1          
 
 requirements:
   build:
