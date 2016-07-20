@@ -5,11 +5,11 @@ package:
 
 source:
   fn: pyTools-master.zip
-  sha256: 22f9b1736264adc62fe940cd9cb84a59cc8bee8cbfb38623000667da8ad5bab4
+  sha256: ce6b0fa4a5a8ccbf33ac2cb27dbc77f0dac3009211ccd860b019a38d11c61d5f
   url: http://peter.rennert.io/exchange/pyTools/pyTools-master.zip
   
 build:                   
-  number: 0
+  number: 1
 
 requirements:
   build:

@@ -8,19 +8,20 @@ source:
 #  sha1: e85fbf5ed148d112aa755b7c281ee48c83815ba4
   
 build:                   
-  number: 0              
+  number: 1
 
 requirements:
   build:
     - python
     - setuptools
     - sox
+    - numpy
 	
   run:
     - python
     - sox
+    - numpy
 
 
 about:
-  home: https://bitbucket.org/groakat/ffvideo/
   license: Standard PIL license
