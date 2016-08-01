@@ -3,45 +3,44 @@ package:
   version: 2.4.3
 
 source:
-  fn: ffmpeg-20140827-git-8c1b942-win64-dev.7z [win]
-  url: http://ffmpeg.zeranoe.com/builds/win64/dev/ffmpeg-20140827-git-8c1b942-win64-dev.7z [win]
-  sha1: 37e04d73df8604df2581eeaf374aa3e521231694 [win]
+  fn: ffmpeg-20160728-fb91143-win64-dev.zip [win]
+  url: https://ffmpeg.zeranoe.com/builds/win64/dev/ffmpeg-20160728-fb91143-win64-dev.zip [win]
+  sha256: b156db1e9388e0029cc3192a1aa8db40cc17ccaa0298f1b940a59e7f54f6d69b [win]
   fn: dummy.txt [osx]
   url: https://gist.githubusercontent.com/groakat/5cad6b243e2ce236d9d4/raw/3c546eb2764c6681df095e68d1e5000725139208/dummy.txt [osx]
 	
 build:
     number: 17
-    binary_has_prefix_files:                       [win]
-#        - Library\lib\avcodec-56.def                        [win]
-#        - Library\lib\avdevice-56.def                        [win]
-#        - Library\lib\avfilter-5.def                        [win]
-#        - Library\lib\avformat-56.def                        [win]
-#        - Library\lib\avutil-54.def                        [win]
-        - Library\lib\libavcodec.dll.a                        [win]
-        - Library\lib\libavfilter.dll.a                        [win]
-        - Library\lib\libavutil.dll.a                        [win]
-        - Library\lib\libswresample.dll.a                        [win]
-#        - Library\lib\postproc-53.def                        [win]
-#        - Library\lib\swresample-1.def                        [win]
-#        - Library\lib\swscale-3.def                        [win]
-        - Library\lib\avcodec.lib                        [win]
-        - Library\lib\avdevice.lib                        [win]
-        - Library\lib\avfilter.lib                        [win]
-        - Library\lib\avformat.lib                        [win]
-        - Library\lib\avutil.lib                        [win]
-        - Library\lib\libavdevice.dll.a                        [win]
-        - Library\lib\libavformat.dll.a                        [win]
-        - Library\lib\libpostproc.dll.a                        [win]
-        - Library\lib\libswscale.dll.a                       [win]
-        - Library\lib\postproc.lib                     [win]
-        - Library\lib\swresample.lib                       [win]
-        - Library\lib\swscale.lib                       [win]
+# #    binary_has_prefix_files:                       [win]
+# #        - Library\lib\avcodec-56.def                        [win]
+# #        - Library\lib\avdevice-56.def                        [win]
+# #        - Library\lib\avfilter-5.def                        [win]
+# #        - Library\lib\avformat-56.def                        [win]
+# #        - Library\lib\avutil-54.def                        [win]
+        # - Library/lib/libavcodec.dll.a                        [win]
+        # - Library/lib/libavfilter.dll.a                        [win]
+        # - Library/lib/libavutil.dll.a                        [win]
+        # - Library/lib/libswresample.dll.a                        [win]
+# #        - Library\lib\postproc-53.def                        [win]
+# #        - Library\lib\swresample-1.def                        [win]
+# #        - Library\lib\swscale-3.def                        [win]
+        # - Library/lib/avcodec.lib                        [win]
+        # - Library/lib/avdevice.lib                        [win]
+        # - Library/lib/avfilter.lib                        [win]
+        # - Library/lib/avformat.lib                        [win]
+        # - Library/lib/avutil.lib                        [win]
+        # - Library/lib/libavdevice.dll.a                        [win]
+        # - Library/lib/libavformat.dll.a                        [win]
+        # - Library/lib/libpostproc.dll.a                        [win]
+        # - Library/lib/libswscale.dll.a                       [win]
+        # - Library/lib/postproc.lib                     [win]
+        # - Library/lib/swresample.lib                       [win]
+        # - Library/lib/swscale.lib                       [win]
 	  
 requirements:
   build:
     - 7za		[win]
   run:
-    - ffmpeg-dev 
 
 about:
   home: https://www.ffmpeg.org/

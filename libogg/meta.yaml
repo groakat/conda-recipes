@@ -16,7 +16,6 @@ requirements:
   build:
 
   run:
-    - libogg
 
 about:
   home: https://xiph.org/ogg/

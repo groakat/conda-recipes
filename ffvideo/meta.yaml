@@ -17,6 +17,7 @@ requirements:
     - cython             [win]
     - mingw				 [win]
     - ffmpeg-shared         	
+    - ffmpeg-dev                  	
     - cython
     - python
     - numpy
@@ -28,7 +29,7 @@ requirements:
     - python
     - numpy
     - ffmpeg-shared  
-    # - ffmpeg-dev       
+    - ffmpeg-dev       
 #    - cython
 #    - mingw
 #    - pywin32

@@ -22,6 +22,11 @@ requirements:
     - matplotlib
     - setuptools
     - pluginmanager
+    - cython             [win]
+    - mingw				 [win]
+    - pywin32           [win]
+    - libpython         [win]
+    
 
 
 about:

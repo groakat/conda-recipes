@@ -15,8 +15,6 @@ build:
 requirements:
   build:
     - python
-  run:
-    - yasm
 
 about:
   home: http://yasm.tortall.net/

@@ -3,9 +3,9 @@ package:
   version: 2.8.0
 
 source:
-  fn: ffmpeg-20140827-git-9e8ab36-win64-shared.7z[win]
-  url: http://ffmpeg.zeranoe.com/builds/win64/shared/ffmpeg-20140827-git-9e8ab36-win64-shared.7z [win]
-  sha1: 39c2bcb9465ce15cfd3badc1b7bb0b83718c4cac[win]
+  fn: ffmpeg-20160728-fb91143-win64-shared.zip[win]
+  url: https://ffmpeg.zeranoe.com/builds/win64/shared/ffmpeg-20160728-fb91143-win64-shared.zip [win]
+  sha256: 6d9c97b547a5d42bc8504165d2b948281ee68b22699ad56f74b7a1fd71ce3406[win]
   fn: ffmpeg-2.8-snapshot.tar.bz2 [osx]
   url: http://www.rennert.io/dep_sources/ffmpeg-2.8-snapshot.tar.bz2 [osx]
 	

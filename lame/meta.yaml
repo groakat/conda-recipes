@@ -15,7 +15,6 @@ build:
 requirements:
   build:
   run:
-    - lame
 
 about:
   home: http://lame.sourceforge.net/

@@ -16,7 +16,6 @@ requirements:
   build:
     - yasm
   run:
-    - x264
 
 about:
   home: http://www.videolan.org/developers/x264.html

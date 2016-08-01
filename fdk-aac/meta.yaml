@@ -16,7 +16,6 @@ requirements:
   build:
 
   run:
-    - fdk-aac
 
 about:
   home: http://sourceforge.net/projects/opencore-amr/files/fdk-aac/

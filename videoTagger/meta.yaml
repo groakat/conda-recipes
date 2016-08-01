@@ -9,7 +9,7 @@ source:
   url: http://peter.rennert.io/exchange/pyTools/pyTools-master.zip
   
 build:                   
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -17,6 +17,10 @@ requirements:
     - setuptools
     - python
     - distribute
+    - cython             [win]
+    - mingw				 [win]
+    - pywin32           [win]
+    - libpython         [win]
 	
   run:
     - videotagger-dependencies

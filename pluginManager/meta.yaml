@@ -5,15 +5,16 @@ package:
 source:
   fn: master.zip
   url: https://github.com/groakat/pluginManager/archive/master.zip
-  sha1: 7db8c78ea864620bbf7b938b1f50c631830dc229
+  sha1: 00c46ebafcf0fe447906e9370a94f2594497cc2b
   
 build:                   
-  number: 0              
+  number: 1             
 
 requirements:
   build:
     - python
     - setuptools
+    - numpy
 	
   run:
     - python

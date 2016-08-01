@@ -16,7 +16,6 @@ requirements:
   build:
 
   run:
-    - libvpx
 
 about:
   home: http://www.webmproject.org/code/
