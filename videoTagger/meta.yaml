@@ -1,15 +1,15 @@
 package:
   name: videotagger
-  version: 0.1.0
+  version: 0.1.1
 
 
 source:
   fn: videotagger-master.zip
-  sha256: c8ee276a80eafcacf2366e2b1745cec3c2eb28c60346c9f44bc0e11b2046099b
+  # sha256: c8ee276a80eafcacf2366e2b1745cec3c2eb28c60346c9f44bc0e11b2046099b
   url: https://github.com/groakat/videotagger/archive/master.zip
   
 build:                   
-  number: 0
+  number: 1 
 
 requirements:
   build:
